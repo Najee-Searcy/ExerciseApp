@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="hanginglegraise_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hanginglegraise_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lunge_graphic11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lunge_graphic11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BenchDips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BenchDips.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_back2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_back2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="benchPress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\benchPress.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leglowers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leglowers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lunge_graphic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lunge_graphic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lower_leg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lower_leg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Verticle Pull Up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Verticle Pull Up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dcr_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dcr_graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pikePushUps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pikePushUps.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dumbbellbicepcurl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumbbellbicepcurl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onearmpalmupwristcurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onearmpalmupwristcurl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pistolsquat_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pistolsquat_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L-Sits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L-Sits.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alternateinclinedumbbellcurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alternateinclinedumbbellcurl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unassistedchinup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unassistedchinup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backBridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backBridge.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lower_arms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lower_arms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reverseLegLift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reverseLegLift.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sidejackknife_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sidejackknife_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superManHoldsPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\superManHoldsPic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="squat_graphic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\squat_graphic1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pushup_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pushup_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="core" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\core.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerclean_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerclean_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dumbbellbicepcurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumbbellbicepcurl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbellcurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barbellcurl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weightedHyperExtensions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weightedHyperExtensions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weightedsquat_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weightedsquat_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistedchinup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistedchinup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deadbug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deadbug.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weightedrussiantwist_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weightedrussiantwist_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="palmsupwristcurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\palmsupwristcurl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bentOverRow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bentOverRow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pullup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pullup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machinepreachercurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\machinepreachercurl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deadLift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deadLift.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="latPulldown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latPulldown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dip_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dip_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="body_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\body_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deadlift_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deadlift_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rcr_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rcr_graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CablePushdownReverseGrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CablePushdownReverseGrip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bb_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bb_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upper_leg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upper_leg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="legpress_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\legpress_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="singlelegbridge_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\singlelegbridge_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glutehamraise_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glutehamraise_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cp_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cp_graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="palmsdownwristcurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\palmsdownwristcurl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dbp_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dbp_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pistolsquat_graphic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pistolsquat_graphic1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dpu_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dpu_graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TruckFrontLeverHold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TruckFrontLeverHold.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stcr_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stcr_graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="farmerswalk_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\farmerswalk_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WeightedBackExtensions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeightedBackExtensions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scr_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scr_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wpu_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wpu_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="singlelegbridge_graphic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\singlelegbridge_graphic1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OOD Palette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOD Palette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dbf_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dbf_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="squat_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\squat_graphic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upper_arms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upper_arms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bentOverRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bentOverRow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="latPulldown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latPulldown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TricepDumbbellKickBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TricepDumbbellKickBack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onearmpalmdownwristcurl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onearmpalmdownwristcurl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HorizonalPullUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HorizonalPullUp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dynamictensioncurls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dynamictensioncurls.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sj_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sj_graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plankup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plankup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plank_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plank_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageedit_17_7089281275" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageedit_17_7089281275.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elevatedpushup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elevatedpushup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Verticle Pull Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Verticle Pull Up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goodMorning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goodMorning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="balb_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balb_graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="woodchop_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\woodchop_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dbsidebend_graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dbsidebend_graphic.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
